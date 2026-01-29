@@ -1,5 +1,6 @@
 package com.edutech.progressive.config;
 
+<<<<<<< HEAD
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -43,4 +44,8 @@ public class DatabaseConnectionManager {
             throw new RuntimeException("Database connection failed",e);
         }
     }
+=======
+public class DatabaseConnectionManager {
+    
+>>>>>>> 90377e5bd498728819ffad4eed2d9c5591aa9da8
 }
