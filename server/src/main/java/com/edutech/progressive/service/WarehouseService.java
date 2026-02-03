@@ -11,7 +11,7 @@ public interface WarehouseService {
     public int addWarehouse(Warehouse warehouse) throws SQLException;
 
     List<Warehouse> getWarehousesSortedByCapacity()throws SQLException;
-    List<Warehouse> getWarehousesSortedByName()throws SQLException;
+   // List<Warehouse> getWarehousesSortedByName()throws SQLException;
 
     default public void emptyArrayList()throws SQLException {
     }

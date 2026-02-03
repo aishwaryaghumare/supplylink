@@ -20,19 +20,19 @@ public class WarehouseServiceImplArraylist  implements WarehouseService{
     }
 
     
-    @Override
-    public List<Warehouse> getWarehousesSortedByName() {
-        // TODO Auto-generated method stub
-       // List<Warehouse> sortedList=new ArrayList<>(warehouseList);
-        Comparator<Warehouse> wareHouseNameComp = new Comparator<Warehouse>() {
-            @Override
-            public int compare(Warehouse arg0, Warehouse arg1) {
-                return arg0.getWarehouseName().compareTo(arg1.getWarehouseName());
-            }
-        };
-        Collections.sort(warehouseList,wareHouseNameComp);
-        return warehouseList;
-    }
+    // @Override
+    // public List<Warehouse> getWarehousesSortedByName() {
+    //     // TODO Auto-generated method stub
+    //    // List<Warehouse> sortedList=new ArrayList<>(warehouseList);
+    //     Comparator<Warehouse> wareHouseNameComp = new Comparator<Warehouse>() {
+    //         @Override
+    //         public int compare(Warehouse arg0, Warehouse arg1) {
+    //             return arg0.getWarehouseName().compareTo(arg1.getWarehouseName());
+    //         }
+    //     };
+    //     Collections.sort(warehouseList,wareHouseNameComp);
+    //     return warehouseList;
+    // }
 
     @Override
     public int addWarehouse(Warehouse warehouse) {

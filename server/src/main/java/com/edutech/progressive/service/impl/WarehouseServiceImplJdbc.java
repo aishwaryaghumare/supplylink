@@ -49,4 +49,6 @@ public class WarehouseServiceImplJdbc implements WarehouseService {
         warehouses.sort(Comparator.comparingInt(Warehouse::getCapacity)); // ASCENDING
         return warehouses;
     }
+
+   
 }
